@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: llmzip/llmzip.github.io
-          submodules: true
+          submodules: "recursive"
 
       - name: Update llmzip.github.io submodule
         run: |
