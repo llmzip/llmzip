@@ -9,16 +9,8 @@ on:
 jobs:
   update-git-submodule:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          repository: llmzip/llmzip.github.io
-          submodules: "recursive"
-
       - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
