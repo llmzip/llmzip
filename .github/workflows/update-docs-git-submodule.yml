@@ -21,7 +21,7 @@ jobs:
 
       - name: Update llmzip.github.io submodule
         run: |
-          git submodule update --remote --merge
+          git submodule update --remote
           git add .
 
       - name: Commit changes
