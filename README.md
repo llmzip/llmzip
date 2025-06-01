@@ -1,8 +1,11 @@
-[![Static Badge](https://img.shields.io/badge/GitHub-black)](https://github.com/llmzip/llmzip)
+# [LLMZip](https://github.com/llmzip/llmzip)
 
-# How To Use
+[![GitHub](https://img.shields.io/badge/GitHub-llmzip-black)](https://github.com/llmzip/llmzip)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-## 1. Compress
+## How To Use
+
+### 1. Compress
 
 ![
     First, Choose files and directories to compress.
@@ -10,7 +13,7 @@
     Third, Compress. Some contents will be removed.
 ](/readme-assets/LLMZip-flow.drawio.png)
 
-## 2. Use
+### 2. Use
 
 ![
     First, Open LLM Service you want to use, like ChatGPT, Gemini, or Claude.
@@ -20,6 +23,6 @@
 
 ---
 
-# Introduction
+## Introduction
 
 LLMZip compresses files and directories into a single file that can be used as context for LLMs (Large Language Models) like ChatGPT, Gemini, or Claude.
