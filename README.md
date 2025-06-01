@@ -1,3 +1,5 @@
+[![Static Badge](https://img.shields.io/badge/GitHub-black)](https://github.com/llmzip/llmzip)
+
 # How To Use _LLMZip_
 
 ## 1. Compress
