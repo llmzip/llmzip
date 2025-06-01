@@ -1,6 +1,6 @@
 [![Static Badge](https://img.shields.io/badge/GitHub-black)](https://github.com/llmzip/llmzip)
 
-# How To Use _LLMZip_
+# How To Use
 
 ## 1. Compress
 
@@ -19,3 +19,7 @@
 ](/readme-assets/LLMZip-usage.drawio.svg)
 
 ---
+
+# Introduction
+
+LLMZip compresses files and directories into a single file that can be used as context for LLMs (Large Language Models) like ChatGPT, Gemini, or Claude.
