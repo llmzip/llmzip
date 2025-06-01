@@ -1,0 +1,15 @@
+exclude:
+  - node_modules
+  - script
+
+theme: jekyll-theme-primer
+
+github:
+  private: false
+  source:
+    branch: "main"
+    path: "/"
+  repository_url: "https://github.com/llmzip/llmzip"
+
+title: LLMZip
+description: LLMZip compresses files and directories into a single file that can be used as context for LLMs (Large Language Models) like ChatGPT, Gemini, or Claude.
