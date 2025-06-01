@@ -1,0 +1,19 @@
+# How To Use _LLMZip_
+
+## 1. Compress
+
+![
+    First, Choose files and directories to compress.
+    Second, Configure the compression options.
+    Third, Compress. Some contents will be removed.
+](./LLMZip-flow.drawio.svg)
+
+## 2. Use
+
+![
+    First, Open LLM Service you want to use, like ChatGPT, Gemini, or Claude.
+    Second, Paste the compressed file content into the context input box.
+    Third, Start the conversation with the LLM. The LLM will understand the context from the compressed file.
+](./LLMZip-usage.drawio.svg)
+
+---
