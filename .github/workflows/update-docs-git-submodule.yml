@@ -1,0 +1,23 @@
+name: Update llmzip.github.io
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-git-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout llmzip.github.io repository
+        uses: actions/checkout@v3
+        with:
+          repository: llmzip/llmzip.github.io
+
+      - name: Update llmzip.github.io submodule
+        run: |
+          git submodule update --remote --merge
+          git add llmzip.github.io
+          git commit -m "Update llmzip.github.io submodule" || echo "No changes to commit"
+          git push origin main
