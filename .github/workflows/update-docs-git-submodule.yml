@@ -14,9 +14,10 @@ jobs:
 
     steps:
       - name: Checkout llmzip.github.io repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: llmzip/llmzip.github.io
+          submodules: true
 
       - name: Update llmzip.github.io submodule
         run: |
